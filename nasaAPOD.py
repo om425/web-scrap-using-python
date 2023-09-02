@@ -1,11 +1,11 @@
 import requests
 
-API_KEY= 'icGekmVUdwr6WDMAw7YRVRdJbAq7ZPPdRl8waFpn'
+API_KEY= ''
 
 
 
 def NasaNews(Date):
-    Url="https://api.nasa.gov/planetary/apod?api_key=icGekmVUdwr6WDMAw7YRVRdJbAq7ZPPdRl8waFpn"
+    Url="https://api.nasa.gov/planetary/apod?api_key=YOUR KEY"
 
 
     Params={'date':str(Date)}
